@@ -1,0 +1,32 @@
+body {
+  height: 50vw;
+  width: 100vw;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.color-box {
+  height: 15rem;
+  width: 25rem;
+  border: 1px solid black;
+  margin-bottom: 3rem;
+}
+
+.choices {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
+}
+
+.green {
+  color: green;
+}
+
+.red {
+  color: red;
+}
